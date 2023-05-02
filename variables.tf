@@ -20,7 +20,7 @@ variable "location" {
 
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_A0"
+  default     = "Standard_B4ms"
 }
 
 variable "image_publisher" {
@@ -35,7 +35,7 @@ variable "image_offer" {
 
 variable "image_sku" {
   description = "Image SKU to apply (az vm image list)"
-  default     = "20.04-LTS"
+  default     = "19_10-daily-gen2"
 }
 
 variable "admin_username" {
